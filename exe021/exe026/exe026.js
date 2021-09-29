@@ -74,10 +74,6 @@ let valor = 389;
      notaUm++;
 
    }
-
- 
-
-
 }
 
 

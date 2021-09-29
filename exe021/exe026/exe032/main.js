@@ -7,15 +7,9 @@ dessas estruturas? Por quê? E se, ao invés de imprimir uma listagem com todos
 esses números, seu programa tivessem que imprimir os números que estivessem
 numa faixa especificada pelo usuário, quais seriam as estruturas de repetição*/
 
-//let salario = 1000
-
-//while (salario < 5000) {
-    //salario += salario *50/100
-    //console.log(salario)
-//}
-
 let salario = 1000
 
-do{
-    
-} while(true);
+while (salario < 5000) {
+    salario += salario *50/100
+    console.log(salario)
+}

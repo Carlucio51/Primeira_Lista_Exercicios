@@ -7,9 +7,8 @@ let b = 20
 if  (a/b==0) {    
         console.log(`Os númerossão múltiplos`)
 
-    }if ( 
-    else 
-        console.log("Não são multiplos")
+    }else {
+        console.log("Não são multiplos")}
 
 
 
