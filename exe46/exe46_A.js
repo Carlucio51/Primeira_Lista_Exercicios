@@ -14,19 +14,28 @@ não inserir uma nota válida, peça para ele repetir a votação;*/
 
 
 let nota = 0;
-let votos=0
-let MediaNota=0
+let votos=0;
+let numero;
+let contador=0;
+let erro=0
 
-while (true) {
-    alert('Filme Dragão Branco')
-    numero = parseFloat(prompt("Qual a nota do filme?"));
-    if (numero == 1000){
+
+alert('Qual nota para o filme Vingadores?')
+
+while (true) {    
+    nota = Number(prompt("Infomre uma nota de 0-4")); contador++
+    
+    if (nota == 5 ){
         break;
     }
-    votos+=1
-    
-}
-MediaNota+= (nota/votos)
-alert(`A soma e ${MediaNota}`)
+    if(nota < 0 || nota > 4){
+        prompt("Nota invalida!!! Por favor insira uma nota de 0-4")
+        erro++;
+    }       
+    if (erro < 3){
+         prompt("Nota invalida!!! Por favor insira uma nota de 0-4")
+        
+    }       
+}alert("Fim!")
 
 

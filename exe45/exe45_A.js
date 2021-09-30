@@ -10,4 +10,38 @@ cada uma das 30 turmas, de acordo com as seguintes regras:*/
 
 
 
+let meses = [03,04,05,06,07,08,09,10,11]
+let serie = [0,1,2,3,4,5,6,7,8,9]
+let turmas = ["A", "B", "C"]
+let mensalidade = 180.00
+let maxAluno = 10
 
+
+
+for (let index = 0; index < meses.length; index++) {
+    for (let alunosPorTurma = 0; alunosPorTurma < maxAluno; alunosPorTurma++) {
+        console.log(`Série: ${serie[0]} Turma: ${turmas[0]} Mesês: ${meses[index]} Valor da mensalidade: R$ ${mensalidade}`);
+    }
+}
+console.log("------ Fim ------");
+
+for (let index = 0; index < meses.length; index++) {
+    for (let alunosPorTurma = 0; alunosPorTurma < maxAluno; alunosPorTurma++) {
+        console.log(`Série: ${serie[0]} Turma: ${turmas[1]} Mesês: ${meses[index]} Valor da mensalidade: R$ ${mensalidade}`);
+    }
+}
+console.log("------ Fim ------");
+
+for (let index = 0; index < meses.length; index++) {
+    for (let alunosPorTurma = 0; alunosPorTurma < maxAluno; alunosPorTurma++) {
+        console.log(`Série: ${serie[0]} Turma: ${turmas[2]} Mesês: ${meses[index]} Valor da mensalidade: R$ ${mensalidade}`);
+    }
+}
+console.log("------ Fim ------");
+
+
+
+// console.log(`Série: ${serie[0]}`);
+// console.log(`Turma: ${turmas[0]}`);
+// console.log(`Mesês: ${meses[0]}`);
+// console.log(`Valor da mensalidade: R$ ${mensalidade}`);
